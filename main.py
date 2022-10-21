@@ -1,0 +1,8 @@
+s = str(input("Введите строку: \n"))
+s = s.replace(':',':)')
+s = s.replace('.',':)')
+s = s.replace(',',':)')
+s = s.replace('-',':)')
+s = s.replace('!',':)')
+s = s.replace('?',':)')
+print(s)
